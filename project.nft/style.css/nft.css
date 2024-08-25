@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-body:#07101D;
+    --text-color:#FF3C00;
+
+}
+
+@font-face {
+    font-style: normal;
+    font-family: "kalame";
+    font-weight: 900;
+    src: url(/font/WebFonts/_Woff2/KalamehWeb-Black.woff2) format('wolf');
+}
+@font-face {
+    font-style: normal;
+    font-family: "kalame";
+    font-weight: bold;
+    src: url(/font/WebFonts/_Woff2/KalamehWeb-Bold.woff2) format('wolf');
+}
+@font-face {
+    font-style: normal;
+    font-family: "kalame";
+    font-weight: normal;
+    src: url(/font/WebFonts/_Woff2/KalamehWeb-Regular.woff2) format('wolf');
+}
+body{
+    background-color: var(--color-body);
+
+
+    font-family: kalame;
+}
+
+.text_color{
+    color: var(--text-color);
+}
+.text_bg{
+    background-color: var(--text-color);
+}
+a{
+    text-decoration: none;
+}
+
+
